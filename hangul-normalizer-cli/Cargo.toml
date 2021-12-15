@@ -1,0 +1,12 @@
+[package]
+name = "hangul-normalizer-cli"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+hangul-normalize = { path = "../" }
+derive_more = "0.99"
+clap = "3.0.0-beta.5"
+anyhow = "*"
